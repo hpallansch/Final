@@ -334,7 +334,9 @@ html {
     clear: both;
   }
 
-
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 
@@ -347,14 +349,22 @@ html {
       margin-top: 1em;
   }
 
-  .services, .type {
-    background: hsla(0, 0%, 100%, 0.5);
+  .services {
     position: relative;
     float: left;
     width: 33%;
     margin-bottom: 10px;
     text-align: center;
   }
+
+  .type {
+    position: relative;
+    float: left;
+    width: 33%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
 
   .boarding, .training, .fences, .grooming, .nutrition, .retail {
       /* width: 33%; */
