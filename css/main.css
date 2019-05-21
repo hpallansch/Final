@@ -446,6 +446,7 @@ body {
 
   .dogs {
       margin: 0 70px;
+      clear: both;
   }
 
   .find {
@@ -502,6 +503,16 @@ body {
     text-align: center;
     background-color: rgb(236, 236, 236);
     margin-top: 20px;
+    clear: both;
+    padding-top: 150px;
+    background-image: url(../img/Fetchers_Logo.png);
+    background-repeat: no-repeat;
+    background-position: 500px 50px;
+    padding-bottom: 40px;
+}
+
+.fetchers h2 {
+    font-size: 200%;
 }
 
 .gray {
@@ -554,4 +565,12 @@ footer {
     color: white;
     padding: 20px 0 20px 50px;
     border-top: 2px solid rgb(79, 81, 82);
+}
+
+.main {
+    clear: both;
+}
+
+.companion {
+    clear: both;
 }
